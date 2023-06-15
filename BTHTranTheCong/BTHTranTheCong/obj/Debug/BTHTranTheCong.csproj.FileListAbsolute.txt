@@ -22,3 +22,28 @@ D:\2105ct0021\SecondYear\Y2.3_Lập trình trên Window C#\Practice\BTHTranTheCo
 D:\2105ct0021\SecondYear\Y2.3_Lập trình trên Window C#\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.Bai12.resources
 D:\2105ct0021\SecondYear\Y2.3_Lập trình trên Window C#\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.Bai13.resources
 D:\2105ct0021\SecondYear\Y2.3_Lập trình trên Window C#\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.Bai14.resources
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\bin\Debug\BTHTranTheCong.exe.config
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\bin\Debug\BTHTranTheCong.exe
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\bin\Debug\BTHTranTheCong.pdb
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.csproj.AssemblyReference.cache
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.csproj.SuggestedBindingRedirects.cache
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.bai1.resources
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.Bai10.resources
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.Bai11.resources
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.Bai12.resources
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.Bai13.resources
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.Bai14.resources
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.Bai2.resources
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.Bai3.resources
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.Bai4.resources
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.Bai5.resources
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.Bai6.resources
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.Bai7.resources
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.Bai8.resources
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.MainForm.resources
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.Properties.Resources.resources
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.csproj.GenerateResource.cache
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.csproj.CoreCompileInputs.cache
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.exe
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.pdb
+D:\testGit\Practice\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.Bai15.resources

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -93,6 +94,28 @@ namespace BTHTranTheCong
             numericUpDown1.Value = 0;
             slCu = 0;
             lbTotal.Text = "0";
+        }
+
+        //câu 15; xử lý dữ liệu trong file.
+        int count = 0;
+        private void btXacNhan_Click(object sender, EventArgs e)
+        {
+            //lưu thong tin khách hàng mới vào file.
+            count++;
+            string hoTen = tbTen.Text;
+            string tongTien = lbTotal.Text;
+            string item = count + ". " + hoTen + "__" + tongTien+" vnđ.";
+            lsbHistory.Items.Add(item);
+            File.AppendAllText("history.txt", item+"\n");
+        }
+
+        private void Bai7_Load(object sender, EventArgs e)
+        {
+            //load dữ liệu trong file có sẵn
+            string[] listb = File.ReadAllLines("history.txt");
+            lsbHistory.Items.Clear();
+            lsbHistory.Items.AddRange(listb);
+            count = listb.Length;
         }
     }
 }
