@@ -17,7 +17,9 @@ namespace BTHTranTheCong
         {
             InitializeComponent();
         }
-
+        //
+        int[] dongGia = { 100000, 120000, 200000, 80000 };
+        //
         private void cbCaoVoi_CheckedChanged(object sender, EventArgs e)
         {
             int sum = Convert.ToInt32(lbTotal.Text);
@@ -116,6 +118,29 @@ namespace BTHTranTheCong
             lsbHistory.Items.Clear();
             lsbHistory.Items.AddRange(listb);
             count = listb.Length;
+            lbGiaCV.Text = String.Format("{0:N} đ", dongGia[0]);
+            lbGiaTR.Text = String.Format("{0:N} đ", dongGia[1]);
+            lbGiaCHR.Text = String.Format("{0:N} đ", dongGia[2]);
+            lbTramRang.Text = String.Format("{0:N} đ/cai", dongGia[3]);
+        }
+
+        private void tbTen_TextChanged(object sender, EventArgs e)
+        {
+            if(tbTen.Text.Length > 0)
+            {
+                cbCaoVoi.Enabled = cbChupHinh.Enabled = cbTayTrang.Enabled = numericUpDown1.Enabled = btXacNhan.Enabled = true;
+            }
+            else
+            {
+                cbCaoVoi.Enabled = cbChupHinh.Enabled = cbTayTrang.Enabled = numericUpDown1.Enabled = btXacNhan.Enabled = false;
+            }
+        }
+
+        private void btCaiDat_Click(object sender, EventArgs e)
+        {
+            Bai15 f = new Bai15();
+            f.Show();
+
         }
     }
 }

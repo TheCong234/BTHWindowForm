@@ -16,7 +16,7 @@ namespace BTHTranTheCong
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Bai7());
+            Application.Run(new MainForm());
         }
     }
 }

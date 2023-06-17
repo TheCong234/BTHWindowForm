@@ -24,7 +24,7 @@ namespace BTHTranTheCong
             {
                 dx = -dx;
             }
-            if(picBall.Top < 0 || ((picBall.Bottom == lbVanTruot.Top) && (picBall.Left >= lbVanTruot.Left && picBall.Right <= lbVanTruot.Right)))
+            if(picBall.Top < 0 || ((picBall.Bottom == lbVanTruot.Top) && (picBall.Left >= lbVanTruot.Left -53 && picBall.Right <= lbVanTruot.Right + 53)))
             {
                 dy = -dy;
             }
