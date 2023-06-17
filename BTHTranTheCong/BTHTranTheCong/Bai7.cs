@@ -29,12 +29,12 @@ namespace BTHTranTheCong
             {
                 if (cbCaoVoi.Checked)
                 {
-                    sum += 100000;
+                    sum += dongGia[0];
                     lbTotal.Text = sum.ToString();
                 }
                 else
                 {
-                    sum -= 100000;
+                    sum -= dongGia[0];
                     lbTotal.Text = sum.ToString();
                 }
 
@@ -44,12 +44,12 @@ namespace BTHTranTheCong
             {
                 if (cbTayTrang.Checked)
                 {
-                    sum += 1200000;
+                    sum += dongGia[1];
                     lbTotal.Text = sum.ToString();
                 }
                 else
                 {
-                    sum -= 1200000;
+                    sum -= dongGia[1];
                     lbTotal.Text = sum.ToString();
                 }
 
@@ -59,12 +59,12 @@ namespace BTHTranTheCong
             {
                 if (cbChupHinh.Checked)
                 {
-                    sum += 200000;
+                    sum += dongGia[2];
                     lbTotal.Text = sum.ToString();
                 }
                 else
                 {
-                    sum -= 200000;
+                    sum -= dongGia[2];
                     lbTotal.Text = sum.ToString();
                 }
 
@@ -77,12 +77,12 @@ namespace BTHTranTheCong
             int slMoi = (int)num;
             if (slCu < slMoi)
             {
-                lbTotal.Text = (Convert.ToInt32(lbTotal.Text) + 80000).ToString();
+                lbTotal.Text = (Convert.ToInt32(lbTotal.Text) + dongGia[3]).ToString();
                 slCu = slMoi;
             }
             else
             {
-                lbTotal.Text = (Convert.ToInt32(lbTotal.Text) - 80000).ToString();
+                lbTotal.Text = (Convert.ToInt32(lbTotal.Text) - dongGia[3]).ToString();
                 slCu = slMoi;
             }
         }
@@ -99,7 +99,7 @@ namespace BTHTranTheCong
         }
 
         //câu 15; xử lý dữ liệu trong file.
-        int count = 0;
+        int count = 0;  //biến đếm stt trong phần lịch sử
         private void btXacNhan_Click(object sender, EventArgs e)
         {
             //lưu thong tin khách hàng mới vào file.
@@ -110,18 +110,29 @@ namespace BTHTranTheCong
             lsbHistory.Items.Add(item);
             File.AppendAllText("history.txt", item+"\n");
         }
-
-        private void Bai7_Load(object sender, EventArgs e)
+        //hàm load
+        public void LoadData()
         {
-            //load dữ liệu trong file có sẵn
             string[] listb = File.ReadAllLines("history.txt");
             lsbHistory.Items.Clear();
             lsbHistory.Items.AddRange(listb);
             count = listb.Length;
+            //đọc bảng giá
+            string[] docBangGia = File.ReadAllLines("banggia.txt");
+            dongGia[0] = Convert.ToInt32(docBangGia[0]);
+            dongGia[1] = Convert.ToInt32(docBangGia[1]);
+            dongGia[2] = Convert.ToInt32(docBangGia[2]);
+            dongGia[3] = Convert.ToInt32(docBangGia[3]);
+
             lbGiaCV.Text = String.Format("{0:N} đ", dongGia[0]);
             lbGiaTR.Text = String.Format("{0:N} đ", dongGia[1]);
             lbGiaCHR.Text = String.Format("{0:N} đ", dongGia[2]);
             lbTramRang.Text = String.Format("{0:N} đ/cai", dongGia[3]);
+        }
+        private void Bai7_Load(object sender, EventArgs e)
+        {
+            //load dữ liệu trong file có sẵn
+            LoadData();
         }
 
         private void tbTen_TextChanged(object sender, EventArgs e)
@@ -136,11 +147,11 @@ namespace BTHTranTheCong
             }
         }
 
-        private void btCaiDat_Click(object sender, EventArgs e)
+        private void btUdXacNhan_Click(object sender, EventArgs e)
         {
-            Bai15 f = new Bai15();
-            f.Show();
-
+            string []donGiaUpdate = {tbCaoVoi.Text,tbTayRang.Text,tbChupHinh.Text,tbTramRang.Text};
+            File.WriteAllLines("banggia.txt", donGiaUpdate);
+            LoadData();
         }
     }
 }
