@@ -82,6 +82,12 @@
     <Compile Include="Bai14.Designer.cs">
       <DependentUpon>Bai14.cs</DependentUpon>
     </Compile>
+    <Compile Include="Bai18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai18.Designer.cs">
+      <DependentUpon>Bai18.cs</DependentUpon>
+    </Compile>
     <Compile Include="Bai2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -150,6 +156,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Bai14.resx">
       <DependentUpon>Bai14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai18.resx">
+      <DependentUpon>Bai18.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Bai2.resx">
       <DependentUpon>Bai2.cs</DependentUpon>

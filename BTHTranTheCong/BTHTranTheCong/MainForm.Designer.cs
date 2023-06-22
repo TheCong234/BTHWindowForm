@@ -43,6 +43,7 @@
             this.bai12TSMItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bai13TSMItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bai14ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.baii17TSMItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,7 +73,8 @@
             this.bai11TSMItem,
             this.bai12TSMItem,
             this.bai13TSMItem,
-            this.bai14ToolStripMenuItem});
+            this.bai14ToolStripMenuItem,
+            this.baii17TSMItem});
             this.baiTapSMItem.Name = "baiTapSMItem";
             this.baiTapSMItem.Size = new System.Drawing.Size(73, 24);
             this.baiTapSMItem.Text = "Bài Tập";
@@ -168,6 +170,13 @@
             this.bai14ToolStripMenuItem.Text = "Bài 14";
             this.bai14ToolStripMenuItem.Click += new System.EventHandler(this.bai14ToolStripMenuItem_Click);
             // 
+            // baii17TSMItem
+            // 
+            this.baii17TSMItem.Name = "baii17TSMItem";
+            this.baii17TSMItem.Size = new System.Drawing.Size(224, 26);
+            this.baii17TSMItem.Text = "Bài 17";
+            this.baii17TSMItem.Click += new System.EventHandler(this.baii17TSMItem_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -205,6 +214,7 @@
         private System.Windows.Forms.ToolStripMenuItem bai12TSMItem;
         private System.Windows.Forms.ToolStripMenuItem bai13TSMItem;
         private System.Windows.Forms.ToolStripMenuItem bai14ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem baii17TSMItem;
     }
 }
 

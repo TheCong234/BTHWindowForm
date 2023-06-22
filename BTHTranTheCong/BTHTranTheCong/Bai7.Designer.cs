@@ -60,11 +60,13 @@
             this.tbCaoVoi = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.bill.SuspendLayout();
             this.tabBill.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.tabUpdate.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // bill
@@ -79,6 +81,7 @@
             // 
             // tabBill
             // 
+            this.tabBill.BackColor = System.Drawing.Color.Gray;
             this.tabBill.Controls.Add(this.groupBox1);
             this.tabBill.Controls.Add(this.lsbHistory);
             this.tabBill.Controls.Add(this.label9);
@@ -88,7 +91,6 @@
             this.tabBill.Size = new System.Drawing.Size(935, 530);
             this.tabBill.TabIndex = 0;
             this.tabBill.Text = "Bill";
-            this.tabBill.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
@@ -314,25 +316,20 @@
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Gainsboro;
+            this.label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label9.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label9.ForeColor = System.Drawing.Color.IndianRed;
             this.label9.Location = new System.Drawing.Point(76, 12);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(398, 45);
+            this.label9.Size = new System.Drawing.Size(400, 47);
             this.label9.TabIndex = 18;
             this.label9.Text = "Dental Payment Form";
             // 
             // tabUpdate
             // 
-            this.tabUpdate.Controls.Add(this.tbTayRang);
-            this.tabUpdate.Controls.Add(this.label5);
-            this.tabUpdate.Controls.Add(this.tbTramRang);
-            this.tabUpdate.Controls.Add(this.label3);
-            this.tabUpdate.Controls.Add(this.tbChupHinh);
-            this.tabUpdate.Controls.Add(this.label6);
-            this.tabUpdate.Controls.Add(this.btUdXacNhan);
-            this.tabUpdate.Controls.Add(this.tbCaoVoi);
-            this.tabUpdate.Controls.Add(this.label7);
+            this.tabUpdate.BackColor = System.Drawing.Color.DimGray;
+            this.tabUpdate.Controls.Add(this.groupBox2);
             this.tabUpdate.Controls.Add(this.label8);
             this.tabUpdate.Location = new System.Drawing.Point(4, 25);
             this.tabUpdate.Name = "tabUpdate";
@@ -340,12 +337,11 @@
             this.tabUpdate.Size = new System.Drawing.Size(935, 530);
             this.tabUpdate.TabIndex = 1;
             this.tabUpdate.Text = "Update";
-            this.tabUpdate.UseVisualStyleBackColor = true;
             // 
             // tbTayRang
             // 
             this.tbTayRang.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.tbTayRang.Location = new System.Drawing.Point(195, 119);
+            this.tbTayRang.Location = new System.Drawing.Point(198, 128);
             this.tbTayRang.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbTayRang.Name = "tbTayRang";
             this.tbTayRang.Size = new System.Drawing.Size(129, 30);
@@ -355,7 +351,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label5.Location = new System.Drawing.Point(56, 200);
+            this.label5.Location = new System.Drawing.Point(59, 209);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(102, 25);
             this.label5.TabIndex = 18;
@@ -364,7 +360,7 @@
             // tbTramRang
             // 
             this.tbTramRang.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.tbTramRang.Location = new System.Drawing.Point(195, 193);
+            this.tbTramRang.Location = new System.Drawing.Point(198, 202);
             this.tbTramRang.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbTramRang.Name = "tbTramRang";
             this.tbTramRang.Size = new System.Drawing.Size(129, 30);
@@ -374,7 +370,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label3.Location = new System.Drawing.Point(71, 119);
+            this.label3.Location = new System.Drawing.Point(74, 128);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(90, 25);
             this.label3.TabIndex = 16;
@@ -383,7 +379,7 @@
             // tbChupHinh
             // 
             this.tbChupHinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.tbChupHinh.Location = new System.Drawing.Point(195, 156);
+            this.tbChupHinh.Location = new System.Drawing.Point(198, 165);
             this.tbChupHinh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbChupHinh.Name = "tbChupHinh";
             this.tbChupHinh.Size = new System.Drawing.Size(129, 30);
@@ -393,7 +389,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label6.Location = new System.Drawing.Point(8, 156);
+            this.label6.Location = new System.Drawing.Point(11, 165);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(146, 25);
             this.label6.TabIndex = 14;
@@ -402,7 +398,7 @@
             // btUdXacNhan
             // 
             this.btUdXacNhan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btUdXacNhan.Location = new System.Drawing.Point(195, 257);
+            this.btUdXacNhan.Location = new System.Drawing.Point(198, 266);
             this.btUdXacNhan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btUdXacNhan.Name = "btUdXacNhan";
             this.btUdXacNhan.Size = new System.Drawing.Size(131, 34);
@@ -414,7 +410,7 @@
             // tbCaoVoi
             // 
             this.tbCaoVoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.tbCaoVoi.Location = new System.Drawing.Point(195, 82);
+            this.tbCaoVoi.Location = new System.Drawing.Point(198, 91);
             this.tbCaoVoi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbCaoVoi.Name = "tbCaoVoi";
             this.tbCaoVoi.Size = new System.Drawing.Size(129, 30);
@@ -424,7 +420,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label7.Location = new System.Drawing.Point(83, 82);
+            this.label7.Location = new System.Drawing.Point(86, 91);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(79, 25);
             this.label7.TabIndex = 11;
@@ -441,6 +437,26 @@
             this.label8.TabIndex = 10;
             this.label8.Text = "Cập nhật bảng giá";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.BackColor = System.Drawing.Color.Silver;
+            this.groupBox2.Controls.Add(this.tbTayRang);
+            this.groupBox2.Controls.Add(this.label7);
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.tbCaoVoi);
+            this.groupBox2.Controls.Add(this.tbTramRang);
+            this.groupBox2.Controls.Add(this.btUdXacNhan);
+            this.groupBox2.Controls.Add(this.label3);
+            this.groupBox2.Controls.Add(this.label6);
+            this.groupBox2.Controls.Add(this.tbChupHinh);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.groupBox2.Location = new System.Drawing.Point(141, 68);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(403, 406);
+            this.groupBox2.TabIndex = 20;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Price";
             // 
             // Bai7
             // 
@@ -459,7 +475,8 @@
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.tabUpdate.ResumeLayout(false);
-            this.tabUpdate.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -498,5 +515,6 @@
         private System.Windows.Forms.TextBox tbCaoVoi;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.GroupBox groupBox2;
     }
 }
