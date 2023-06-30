@@ -95,3 +95,4 @@ D:\OnGit\winform\BTHWindowForm\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTh
 D:\OnGit\winform\BTHWindowForm\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.csproj.CoreCompileInputs.cache
 D:\OnGit\winform\BTHWindowForm\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.exe
 D:\OnGit\winform\BTHWindowForm\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.pdb
+D:\OnGit\winform\BTHWindowForm\BTHTranTheCong\BTHTranTheCong\obj\Debug\BTHTranTheCong.Bai18.resources
