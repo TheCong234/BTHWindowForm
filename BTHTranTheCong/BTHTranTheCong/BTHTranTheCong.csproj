@@ -94,6 +94,12 @@
     <Compile Include="Bai2.Designer.cs">
       <DependentUpon>Bai2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Bai23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bai23.Designer.cs">
+      <DependentUpon>Bai23.cs</DependentUpon>
+    </Compile>
     <Compile Include="Bai3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +136,12 @@
     <Compile Include="Bai8.Designer.cs">
       <DependentUpon>Bai8.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -163,6 +175,9 @@
     <EmbeddedResource Include="Bai2.resx">
       <DependentUpon>Bai2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Bai23.resx">
+      <DependentUpon>Bai23.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Bai3.resx">
       <DependentUpon>Bai3.cs</DependentUpon>
     </EmbeddedResource>
@@ -180,6 +195,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Bai8.resx">
       <DependentUpon>Bai8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
