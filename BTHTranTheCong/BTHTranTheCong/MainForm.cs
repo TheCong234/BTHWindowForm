@@ -136,5 +136,13 @@ namespace BTHTranTheCong
             f.StartPosition = FormStartPosition.CenterScreen;
             f.Show();
         }
+
+        private void Bai22TSMItem_Click(object sender, EventArgs e)
+        {
+            Bai22 f = new Bai22();
+            f.MdiParent = this;
+            f.StartPosition = FormStartPosition.CenterScreen;
+            f.Show();
+        }
     }
 }

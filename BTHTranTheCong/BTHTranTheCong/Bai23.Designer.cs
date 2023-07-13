@@ -33,6 +33,10 @@
             this.btnThem = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.listView1 = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.dtBirthDay = new System.Windows.Forms.DateTimePicker();
             this.rdbMale = new System.Windows.Forms.RadioButton();
             this.txtName = new System.Windows.Forms.TextBox();
@@ -41,10 +45,6 @@
             this.rdbFemale = new System.Windows.Forms.RadioButton();
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.lbTen = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -78,6 +78,7 @@
             this.columnHeader3});
             this.listView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.listView1.FullRowSelect = true;
+            this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(413, 158);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(686, 340);
@@ -87,6 +88,28 @@
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
             this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "Họ Tên";
+            this.columnHeader1.Width = 200;
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Ngày sinh";
+            this.columnHeader2.Width = 160;
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Giới tính";
+            this.columnHeader3.Width = 160;
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "bai23_icon_female.png");
+            this.imageList1.Images.SetKeyName(1, "bai23_icon_male.png");
             // 
             // dtBirthDay
             // 
@@ -134,7 +157,7 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label3.Location = new System.Drawing.Point(258, 47);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(357, 41);
+            this.label3.Size = new System.Drawing.Size(841, 41);
             this.label3.TabIndex = 7;
             this.label3.Text = "Quản lý nhân viên";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -173,28 +196,6 @@
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
             this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
-            // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "Họ Tên";
-            this.columnHeader1.Width = 200;
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "Ngày sinh";
-            this.columnHeader2.Width = 160;
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "Giới tính";
-            this.columnHeader3.Width = 160;
-            // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "bai23_icon_female.png");
-            this.imageList1.Images.SetKeyName(1, "bai23_icon_male.png");
             // 
             // lbTen
             // 
